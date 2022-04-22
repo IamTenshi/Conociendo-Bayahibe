@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Water+Brush&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-image: url(fondo-principal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Esta es la primera imagen que aparece, que dice "Conociendo Bayahibe" START*/
+.introduccion div:first-child{
+    width: 100vw;
+    height: 101vh;
+    background: url(https://viajerosocultos.com/wp-content/uploads/2021/08/wepik-2021712-103154.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+/*Esta es la primera imagen que aparece, que dice "Conociendo Bayahibe" END*/
+
+/*Este es el titulo de la pagina START*/
+h1{
+    position: relative;
+    display: inline-block;
+    bottom: 58.5vh;
+    font-size: 3em;
+    font-family: 'Water Brush', cursive;
+    color: rgb(255, 255, 255);
+}
+/*Este es el titulo de la pagina START*/
+
+p{
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+}
+
+/*Estas son las flechitas de desplazamiento START*/
+.chevron-down{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 47.5vh;
+    right: 14vw;
+}
+
+.chevron-down:hover{
+    transform: scale(110%);
+    transition: .1s;
+}
+
+.chevron-up{
+    margin-left: 47.5vw;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 652.5vh;
+}
+
+.chevron-up:hover{
+    transform: scale(110%);
+    transition: .1s;
+}
+/*Estas son las flechitas de desplazamiento START*/
+
+#imagen-final{
+    background-image: url(https://cdn.tourcms.com/a/13222/213/1/large.jpg);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+/*h3 del buceo START*/
+section:last-child h3{
+    display: inline-block;
+    position: relative;
+    font-family: 'Water Brush', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    left: 14vw;
+    top: 60vh;
+}
+/*h3 del buceo END*/
+
+/*p que habla sonre el buceo START*/
+#nose{
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    position: relative;
+    top: 101.5vh;
+    color: rgb(255, 255, 255);
+    outline: 1vh solid rgba(0, 0, 0, 0.25);
+}
+/*p que habla sonre el buceo END*/
+
+.introduccion{
+    height: 199vh;
+    background-color: red;
+    text-align: center;
+}
+
+#Lo-mejor-de-rd{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/193979570.jpg?k=b01a26fd1b0b516e60f1940217c2a6938049fda4622c57c7197c9f51c8a9683b&o=&hp=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    bottom: 25vh;
+}
+
+/*h2 que dice: Hoy veremos lo mejor de RD START*/
+#xd{
+    position: relative;
+    font-size: 3em;
+    font-family: 'Water Brush', cursive;
+    top: 5vh;
+    color: rgb(255, 255, 255);
+}
+/*h2 que dice: Hoy veremos lo mejor de RD START*/
+
+#Lo-mejor-de-rd div{
+    position: relative;
+    top: 67.5vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    padding: 0 25px 0 25px;
+}
