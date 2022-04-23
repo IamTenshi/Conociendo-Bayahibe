@@ -128,3 +128,67 @@ section:last-child h3{
     font-size: 1.1em;
     padding: 0 25px 0 25px;
 }
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-historia{
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100vw;
+    height: 60vh;
+}
+
+.historia img{
+    position: relative;
+    width: 700px;
+    height: 100%;
+}
+
+.historia h3{
+    position: relative;
+    top: 1vh;
+    font-size: 2.5em;
+    font-family: 'Water Brush', cursive;
+}
+
+.p-historia{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    margin: 0 10px;
+}
+
+.turismo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.turismo h3{
+    position: relative;
+    top: 1vh;
+    font-size: 2.5em;
+    font-family: 'Water Brush', cursive;
+}
+
+.turismo img{
+    position: relative;
+    width: 700px;
+    height: 100%;
+}
+
+.turismo p{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    margin: 17.5px 10px 10px;
+}
+
+.div-turismo{
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100vw;
+    height: 60vh;
+}
