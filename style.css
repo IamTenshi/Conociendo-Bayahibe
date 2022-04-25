@@ -51,17 +51,17 @@ p{
     margin-left: 47.5vw;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 725vh;
+    top: 625vh;
 }
 
 .chevron-up:hover{
     transform: scale(110%);
     transition: .1s;
 }
-/*Estas son las flechitas de desplazamiento START*/
+/*Estas son las flechitas de desplazamiento END*/
 
 #imagen-final{
-    background-image: url(https://cdn.tourcms.com/a/13222/213/1/large.jpg);
+    background-image: url(large.jpg);
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
@@ -195,7 +195,6 @@ section:last-child h3{
 }
 
 .las-playas{
-    background-color: red;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -218,11 +217,18 @@ section:last-child h3{
 .playa{
     width: 50%;
     float: left;
+    height: 55vh;
 }
 
 .playa-1, .playa-2{
     height: 200px;
     margin-bottom: 10px;
+    width: 400px;
+    filter: contrast(110%);
+}
+
+.playa-2{
+    filter: saturate(200%);
 }
 
 .las-playas p{
@@ -231,4 +237,9 @@ section:last-child h3{
 
 span{
     font-weight: 500;
+}
+
+.las-platas-sin-h3{
+    background-color: rgba(0, 0, 0, 0.25);
+    padding-top: 2.5vh;
 }
