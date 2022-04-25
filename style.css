@@ -51,7 +51,7 @@ p{
     margin-left: 47.5vw;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 625vh;
+    top: 640vh;
 }
 
 .chevron-up:hover{
@@ -242,4 +242,21 @@ span{
 .las-platas-sin-h3{
     background-color: rgba(0, 0, 0, 0.25);
     padding-top: 2.5vh;
+}
+
+.etimologia{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.etimologia h3{
+    font-family: 'Water Brush', cursive;
+    font-size: 2.5em;
+}
+
+.etimologia div{
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 10px 0;
 }
