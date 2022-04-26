@@ -51,7 +51,8 @@ p{
     margin-left: 47.5vw;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 640vh;
+    top: 605vh;
+    z-index: 1000;
 }
 
 .chevron-up:hover{
@@ -60,42 +61,8 @@ p{
 }
 /*Estas son las flechitas de desplazamiento END*/
 
-#imagen-final{
-    background-image: url(large.jpg);
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 100;
-}
-
-/*h3 del buceo START*/
-section:last-child h3{
-    display: inline-block;
-    position: relative;
-    font-family: 'Water Brush', cursive;
-    color: rgb(255, 255, 255);
-    font-size: 3em;
-    left: 14vw;
-    top: 60vh;
-}
-/*h3 del buceo END*/
-
-/*p que habla sonre el buceo START*/
-#nose{
-    background-color: rgba(0, 0, 0, 0.25);
-    z-index: 1000;
-    position: relative;
-    top: 101.5vh;
-    color: rgb(255, 255, 255);
-    outline: 1vh solid rgba(0, 0, 0, 0.25);
-}
-/*p que habla sonre el buceo END*/
-
 .introduccion{
     height: 199vh;
-    background-color: red;
     text-align: center;
 }
 
@@ -259,4 +226,33 @@ span{
 .etimologia div{
     background-color: rgba(0, 0, 0, 0.25);
     padding: 10px 0;
+}
+
+.buceo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    top: 20vh;
+    background-image: url(large.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buceo h3{
+    position: relative;
+    font-family: 'Water Brush', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    bottom: 17.5vh;
+}
+
+#nose{
+    position: relative;
+    top: 22.5vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
 }
